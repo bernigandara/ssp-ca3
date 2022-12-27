@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<brand>
+    <name>Dawson Outfitters</name>
+    <menu name="Tops">
+        <product>
+            <listing>Men's Cotton T-Shirt</listing>
+            <price>12.00</price>
+            <sizes>S, M, L, XL</sizes>
+            <colors>Black, White, Grey, Navy</colors>
+        </product>
+        <product>
+            <listing>Men's Hoodie</listing>
+            <price>30.00</price>
+            <sizes>S, M, L, XL</sizes>
+            <colors>Black, Beige, Grey, Navy</colors> 
+        </product>
+        <product>
+            <listing>Men's SweatShirt</listing>
+            <price>25.00</price>
+            <sizes>S, M, L, XL</sizes>
+            <colors>Black, Beige, Grey, Navy</colors> 
+        </product>
+        <product>
+            <listing>Men's Shirt</listing>
+            <price>20.00</price>
+            <sizes>S, M, L, XL</sizes>
+            <colors>White, Grey, Light Blue</colors> 
+        </product>
+    </menu>
+    <menu name="Bottoms">
+        <product>
+            <listing>Men's Jeans</listing>
+            <price>35.00</price>
+            <sizes>28, 30, 32, 34, 36</sizes>
+            <colors>Black, Blue</colors>
+        </product>
+        <product>
+            <listing>Men's SweatPants</listing>
+            <price>30.00</price>
+            <sizes>28, 30, 32, 34, 36</sizes>
+            <colors>Black, Grey, Navy</colors> 
+        </product>
+        <product>
+            <listing>Men's Shorts</listing>
+            <price>25.00</price>
+            <sizes>28, 30, 32, 34, 36</sizes>
+            <colors>Black, Beige, Grey, Navy</colors>
+        </product>
+    </menu>    
+    <menu name="Accessories">
+            <product>
+                <listing>Ring</listing>
+                <price>35.00</price>
+                <colors>Wood, Black, Gold, Silver</colors>
+            </product>
+            <product>
+                <listing>Leather Belt</listing>
+                <price>29.00</price>
+                <sizes>32, 34, 36</sizes>
+                <colors>Black, Brown</colors> 
+            </product>
+            <product>
+                <listing>Ribbed Beanie</listing>
+                <price>24.00</price>
+                <colors>Black, White, Beige, Grey, Navy</colors> 
+            </product>
+    </menu>
+</brand>
