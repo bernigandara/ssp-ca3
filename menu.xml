@@ -92,6 +92,7 @@
         <product>
             <listing>Ring</listing>
             <price>35.00</price>
+            <sizes>15.5</sizes>
             <colors>Wood</colors>
             <colors>Black</colors>
             <colors>Gold</colors>
