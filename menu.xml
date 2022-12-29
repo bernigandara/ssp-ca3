@@ -3,25 +3,25 @@
     <name>Dawson Outfitters</name>
     <menu name="Tops">
         <product>
-            <listing>Men's Cotton T-Shirt</listing>
+            <listing>Cotton T-Shirt</listing>
             <price>12.00</price>
             <sizes>S, M, L, XL</sizes>
             <colors>Black, White, Grey, Navy</colors>
         </product>
         <product>
-            <listing>Men's Hoodie</listing>
+            <listing>Hoodie</listing>
             <price>30.00</price>
             <sizes>S, M, L, XL</sizes>
             <colors>Black, Beige, Grey, Navy</colors> 
         </product>
         <product>
-            <listing>Men's SweatShirt</listing>
+            <listing>SweatShirt</listing>
             <price>25.00</price>
             <sizes>S, M, L, XL</sizes>
             <colors>Black, Beige, Grey, Navy</colors> 
         </product>
         <product>
-            <listing>Men's Shirt</listing>
+            <listing>Shirt</listing>
             <price>20.00</price>
             <sizes>S, M, L, XL</sizes>
             <colors>White, Grey, Light Blue</colors> 
@@ -29,19 +29,19 @@
     </menu>
     <menu name="Bottoms">
         <product>
-            <listing>Men's Jeans</listing>
+            <listing>Jeans</listing>
             <price>35.00</price>
             <sizes>28, 30, 32, 34, 36</sizes>
             <colors>Black, Blue</colors>
         </product>
         <product>
-            <listing>Men's SweatPants</listing>
+            <listing>SweatPants</listing>
             <price>30.00</price>
             <sizes>28, 30, 32, 34, 36</sizes>
             <colors>Black, Grey, Navy</colors> 
         </product>
         <product>
-            <listing>Men's Shorts</listing>
+            <listing>Shorts</listing>
             <price>25.00</price>
             <sizes>28, 30, 32, 34, 36</sizes>
             <colors>Black, Beige, Grey, Navy</colors>
