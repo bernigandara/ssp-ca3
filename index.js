@@ -48,7 +48,7 @@ router.post('/post/json', function(req, res){
         console.log(obj);
         XMLtoJSON('menu.xml', function(err, result) {
             if (err) throw (err);
-            result.brand.menu.category[obj.sec_n].item.push({'listing': obj.listing, 'price': obj.price});
+            result.brand.menu[0].category[obj.sec_n].product.push({ 'listing': obj.listing, 'price': obj.price, 'colors': obj.colour, 'size': obj.size });
             console.log(JSON.stringify(result, null, " "));
             JSONtoXML('menu.xml', result, function(err){
                 if (err) console.log(err);
@@ -68,7 +68,7 @@ router.post('/post/delete', function (req,res) {
             if (err) throw (err);
 
             delete result.brand.menu[0].category[obj.section].product[obj.entree];
-            
+
             JSONtoXML('menu.xml', result, function(err){
                 if (err) console.log(err);
             });
