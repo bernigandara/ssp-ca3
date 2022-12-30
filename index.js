@@ -48,7 +48,7 @@ router.post('/post/json', function(req, res){
         console.log(obj);
         XMLtoJSON('menu.xml', function(err, result) {
             if (err) throw (err);
-            result.menu.category[obj.sec_n].item.push({'listing': obj.listing, 'price': obj.price});
+            result.menu.category[obj.sec_n].product.push({'listing': obj.listing, 'price': obj.price});
             console.log(JSON.stringify(result, null, " "));
             JSONtoXML('menu.xml', result, function(err){
                 if (err) console.log(err);

@@ -11,7 +11,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<xsl:for-each select="brand/menu/category">
+				<xsl:for-each select="//category">
 					<tr>
 						<td colspan="5">
 							<xsl:value-of select="@name" />
